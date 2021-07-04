@@ -1,0 +1,36 @@
+h1{
+    color: brown;
+}
+
+h2, p{
+    color: blue;
+    text-align: center;
+}
+
+*{
+    border: solid;
+}
+
+.header{
+    background-color: gold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu{
+    color: silver;
+    background-color: silver;
+    justify-content: space-evenly;
+}
+
+.grid{
+    background-color: rgba(200, 100, 100, 0.466);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
